@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-microverse",
+  "version": "1.0.0",
+  "description": "> Portfolio: Setup and mobile version skeleton \r ## Demo Link\r https://github.com/aliatayee/portfolio-microverse.git\r ## Built With\r HTML5\r ## Major languages\r HTML\r CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliatayee/portfolio-microverse.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Ali Aqa Atayee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliatayee/portfolio-microverse/issues"
+  },
+  "homepage": "https://github.com/aliatayee/portfolio-microverse#readme"
+}
