@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/aliatayee/portfolio-microverse/issues"
   },
-  "homepage": "https://github.com/aliatayee/portfolio-microverse#readme"
+  "homepage": "https://github.com/aliatayee/portfolio-microverse#readme",
+  "devDependencies": {
+    "hint": "^6.1.11"
+  }
 }
