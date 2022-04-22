@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/aliatayee/portfolio-microverse#readme",
   "devDependencies": {
-    "hint": "^6.1.11"
+    "hint": "^6.1.11",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
