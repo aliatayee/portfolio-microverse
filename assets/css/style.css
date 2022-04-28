@@ -342,6 +342,7 @@ h3 {
   align-items: center;
   justify-content: center;
   width: 150px;
+  transition: width 1.5s;
 }
 
 .get-my-resume button {
@@ -356,6 +357,7 @@ h3 {
 }
 
 .see-project button:hover {
+  width: 300px;
   background-color: #36b37f;
   box-shadow:
     0 1px 1px 0 #a1e9cb,
