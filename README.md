@@ -39,6 +39,18 @@ $ cd Portfolio-mobile-version-skeleton-
 - GitHub: [@aliatayee](https://github.com/aliatayee)
 - Twitter: [@aqaatayee](https://twitter.com/aqaatayee)
 
+👤 **Chahine Mahdhi**
+
+- GitHub: [@chahine-mahdhi](https://github.com/chahine-mahdhi)
+- Twitter: [@cmahdhi85](https://twitter.com/cmahdhi85)
+- LinkedIn: [chahine-mahdhi-38202649](https://www.linkedin.com/in/chahine-mahdhi-38202649/)
+
+👤 **Bello Oluwatomisin**
+
+- GitHub: [@t-bello7](https://github.com/t-bello7)
+- Twitter: [@__tbello](https://twitter.com/__tbello)
+- LinkedIn: [tbello7](https://linkedin.com/in/tbello7)
+
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
