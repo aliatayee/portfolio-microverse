@@ -587,10 +587,6 @@ footer {
     to { top: 50px; }
   }
 
-  #my-recent-work h2 {
-    margin-bottom: 15px;
-  }
-
   .recent__work__container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -657,6 +653,10 @@ footer {
     line-height: 11px;
   }
 
+  #my-recent-work h2 {
+    margin-bottom: 15px;
+  }
+  
   .contact__container {
     display: grid;
     grid-template-columns: auto auto;
