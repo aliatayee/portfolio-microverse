@@ -567,6 +567,12 @@ footer {
   #scroller-icon {
     margin-top: 30px;
     position: relative;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    from { top: 0; }
+    to { top: 50px; }
   }
 
   .recent__work__container {
