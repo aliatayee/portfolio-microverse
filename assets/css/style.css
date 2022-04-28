@@ -703,4 +703,8 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
+  .submit-button-container {
+    text-align: left;
+  }
 }
