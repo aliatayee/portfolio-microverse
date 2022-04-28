@@ -216,6 +216,11 @@ h3 {
   align-content: center;
 }
 
+#my-recent-work h2 {
+  width: 72%;
+  margin: 0 auto;
+}
+
 .indicator {
   position: static;
   width: 48px;
@@ -582,11 +587,19 @@ footer {
     to { top: 50px; }
   }
 
+  #my-recent-work h2 {
+    margin-bottom: 15px;
+  }
+
   .recent__work__container {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 20px;
     row-gap: 10px;
+  }
+
+  .indicator {
+    display: none;
   }
 
   .about-me {
