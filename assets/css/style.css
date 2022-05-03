@@ -246,9 +246,9 @@ h3 {
 }
 
 .img-box img {
-  transition: transform 330ms ease-in-out;
   width: 100%;
   height: 100%;
+  transition: transform 330ms ease-in-out;
 }
 
 .img-box img:hover {
@@ -357,11 +357,11 @@ h3 {
 }
 
 .see-project button:hover {
+  width: 300px;
   background-color: #36b37f;
   box-shadow:
     0 1px 1px 0 #a1e9cb,
     0 6px 20px 0 #a1e9cb;
-  width: 300px;
 }
 
 .see-project button:active {
