@@ -8,3 +8,10 @@ function menuFunction() {
       links.style.display = 'none';
     }
   }
+
+  function menuOptions(param) {
+    window.location.href = param;
+    const links = document.getElementById('mobile-menu-container');
+    links.style.display = 'none';
+  }
+  
