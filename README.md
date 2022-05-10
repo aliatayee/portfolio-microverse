@@ -51,6 +51,20 @@ $ cd Portfolio-mobile-version-skeleton-
 - Twitter: [@__tbello](https://twitter.com/__tbello)
 - LinkedIn: [tbello7](https://linkedin.com/in/tbello7)
 
+👤 **Bitsindou Van Inayat-khan**
+
+- GitHub: [@Khanetmoi](https://github.com/Khanetmoi)
+- Twitter: [@InayatVan](https://twitter.com/InayatVan)
+- LinkedIn: [Khan Bitsindou](https://www.linkedin.com/in/khan-bitsindou-b37178228/)
+
+👤 **Dozie Udeagha**
+
+- GitHub: [@udeaghad](https://github.com/udeaghad)
+- Twitter: [@theodoz](https://twitter.com/theodoz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dozie-udeagha/)
+
+
+
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
