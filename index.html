@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap" rel="stylesheet"/>
-    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="index.js"></script>
   </head>
 
-  <body>
+  <body id="body">
     <div class="home-page">
       <header>
         <nav class="nav__header">
@@ -123,99 +124,54 @@
       <section id="my-recent-work">
         <h2 class="title 2">My Recent Work<br /></h2>
         <div class="indicator"></div>
-        <div class="recent__work__container">
-          <div class="img-patholder">
-            <div class="img-box">
-              <img src="assets/images/placeholder-image.png" alt="project 1" />
-            </div>
-            <h3 class="title-project">Multi-Post Stories <br />Gain+Glory</h3>
-            <ul class="buttons">
-              <li>ruby on rails</li>
-              <li>Css</li>
-              <li>javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="see-project">
-              <button type="button">See project</button>
-            </div>
-          </div>
-
-          <div class="img-patholder">
-            <div class="img-box">
-              <img src="assets/images/placeholder-image.png" alt="project 1" />
-            </div>
-            <h3 class="title-project">Multi-Post Stories <br />Gain+Glory</h3>
-            <ul class="buttons">
-              <li>ruby on rails</li>
-              <li>Css</li>
-              <li>javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="see-project">
-              <button type="button">See project</button>
-            </div>
-          </div>
-          <div class="img-patholder">
-            <div class="img-box">
-              <img src="assets/images/placeholder-image.png" alt="project 1" />
-            </div>
-            <h3 class="title-project">Multi-Post Stories <br />Gain+Glory</h3>
-            <ul class="buttons">
-              <li>ruby on rails</li>
-              <li>Css</li>
-              <li>javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="see-project">
-              <button type="button">See project</button>
-            </div>
-          </div>
-          <div class="img-patholder">
-            <div class="img-box">
-              <img src="assets/images/placeholder-image.png" alt="project 1" />
-            </div>
-            <h3 class="title-project">Multi-Post Stories <br />Gain+Glory</h3>
-            <ul class="buttons">
-              <li>ruby on rails</li>
-              <li>Css</li>
-              <li>javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="see-project">
-              <button type="button">See project</button>
-            </div>
-          </div>
-          <div class="img-patholder">
-            <div class="img-box">
-              <img src="assets/images/placeholder-image.png" alt="project 1" />
-            </div>
-            <h3 class="title-project">Multi-Post Stories <br />Gain+Glory</h3>
-            <ul class="buttons">
-              <li>ruby on rails</li>
-              <li>Css</li>
-              <li>javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="see-project">
-              <button type="button">See project</button>
-            </div>
-          </div>
-          <div class="img-patholder">
-            <div class="img-box">
-              <img src="assets/images/placeholder-image.png" alt="project 1" />
-            </div>
-            <h3 class="title-project">Multi-Post Stories <br />Gain+Glory</h3>
-            <ul class="buttons">
-              <li>ruby on rails</li>
-              <li>Css</li>
-              <li>javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="see-project">
-              <button type="button">See project</button>
-            </div>
-          </div>
+        <div class="recent__work__container" id="project_container">
+         
         </div>
+        <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span id="close" class="close" onclick="closeModal()">&times;</span>
+
+                    <div class="modal-img img-desktop"><img src="assets/images/modal-banner.svg" alt="project 1"></div>
+                    <div class="modal-img img-mobile"><img src="assets/images/mobile-banner.svg" alt="project 1"></div>
+                    <div class="row modal-header" id="modalHead">
+                        <div class="modal-title-container"><h3 class=" modal-title">Keeping track of hundreds of components</h3></div>
+                        <div class="desk-btns">
+                            <button class="modal-btn">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="modal-btn">See Source <i class="fa-brands fa-github"></i></button>
+                        </div>
+                    </div> 
+                    <div class="stucks-modal">
+                        <ul class=" modal-desktop-btn">
+                            <li>Codekit</li>
+                            <li>Github</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Terminal</li>
+                            <li>Codepen</li>
+                        </ul>
+                    </div>
+                    <div class="stucks-modal-mobile">
+                        <ul class=" modal-desktop-btn">
+                            <li>Codekit</li>
+                            <li>Github</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <p class="modal-p">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem
+                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it 1960s with the relea</p>
+                        <div class="mobile-btns">
+                          <button class="modal-btn">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                          <button class="modal-btn">See Source <i class="fa-brands fa-github"></i></button>
+                      </div>
+                </div>
+
+            </div>
       </section>
       <section id="about" class="title about-me">
         <h2 class="title">About Me</h2>

@@ -79,7 +79,9 @@ body {
   color: #172b4d;
 }
 
-.slogan span { color: #36b37f; }
+.slogan span {
+  color: #36b37f;
+}
 
 h4.slogan {
   margin-top: 75px;
@@ -242,6 +244,11 @@ h3 {
   justify-content: end;
 }
 
+.modal-img img {
+  height: 100%;
+  width: 100%;
+}
+
 .img-box {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -312,6 +319,22 @@ h3 {
 .button-white-bg li {
   background-color: white;
   color: #36b37f;
+}
+
+.modal-desktop-btn li {
+  width: 79px;
+  height: 32px;
+  background: #ebecf0;
+  color: #344563;
+  border-radius: 8px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
 }
 
 #mobile-menu-container ul li {
@@ -493,12 +516,215 @@ footer {
   border-radius: 4px;
   padding-left: 10px;
   padding-top: 12px;
+  padding-bottom: 12px;
   font-family: Inter, sans-serif;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(66 74 108 / 40%);
+  backdrop-filter: blur(8px);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 46.5%;
+  padding-top: 50px;
+  margin-bottom: 10%;
+}
+
+.close {
+  color: #67798e;
+  float: right;
+  position: relative;
+  top: -17px;
+  right: 3px;
+  font-size: 28px;
+  font-weight: bold;
+  background: #ebecf0;
+  padding: 7px;
+  display: flex;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title-container {
+  width: 60%;
+}
+
+.modal-title {
+  width: 100%;
+  height: 100%;
+  color: #172b4d;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.modal-btn {
+  background-color: #36b37e;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-left: 12px;
+}
+
+.modal-p {
+  width: 100%;
+  height: 100%;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  text-align: left;
+}
+
+.modal-desktop-btn {
+  display: flex;
+  justify-content: left;
+  padding-left: 0;
+}
+
+.stucks-modal {
+  left: -4%;
+}
+
+@media screen and (max-width: 992px) {
+  .modal {
+    padding-top: 20px;
+  }
+
+  .modal-content {
+    width: 82%;
+    border-radius: 19px;
+    padding-top: 0;
+  }
+
+  .modal-img img {
+    border-radius: 8px;
+  }
+
+  .img-desktop {
+    display: none;
+  }
+
+  .modal-title {
+    width: 100%;
+    height: 100%;
+    color: #172b4d;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .close {
+    color: #fff;
+    float: right;
+    position: relative;
+    top: 43px;
+    right: 12px;
+    font-size: 35px;
+    font-weight: bold;
+    background: none;
+    padding: 7px;
+    display: flex;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+
+  .stucks-modal {
+    display: none;
+  }
+
+  .modal-desktop-btn li {
+    width: 79px;
+    height: 32px;
+    background: #ebf0ee;
+    color: #3a4a42;
+    border-radius: 4px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+  }
+
+  .desk-btns {
+    display: none;
+  }
+
+  .modal-title-container {
+    width: 93%;
+  }
+
+  .modal-btn {
+    height: 48px;
+    width: 46%;
+    background-color: #36b37e;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 7px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   #mobile-menu-container {
     display: none !important;
+  }
+
+  .mobile-btns {
+    display: none;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .stucks-modal-mobile {
+    display: none;
   }
 
   .nav__header {
@@ -583,8 +809,13 @@ footer {
   }
 
   @keyframes mymove {
-    from { top: 0; }
-    to { top: 50px; }
+    from {
+      top: 0;
+    }
+
+    to {
+      top: 50px;
+    }
   }
 
   .recent__work__container {
