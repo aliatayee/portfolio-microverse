@@ -544,6 +544,17 @@ footer {
   margin-bottom: 10%;
 }
 
+.button__link {
+  color: white;
+  font-size: inherit;
+  display: flex;
+  align-items: flex-end;
+}
+
+.button__link i {
+  margin-left: 5px;
+}
+
 .close {
   color: #67798e;
   float: right;
