@@ -82,10 +82,10 @@ window.onload = () => {
                     <div class="img-box"><img src="${project.img}" alt="project 1"></div>
                     <h3 class="title-project">${project.title}</h3>
                     <ul class="buttons">
-                        <li>ruby on rails</li>
-                        <li>Css</li>
-                        <li>javascript</li>
-                        <li>html</li>
+                        <li>${project.techstack[0]}</li>
+                        <li>${project.techstack[1]}</li>
+                        <li>${project.techstack[2]}</li>
+                        <li>${project.techstack[3]}</li>
                     </ul>
                     <div class="see-project">
                         <button id="modal-btn" onclick="openModal(projects[${index}])">See project</button>
@@ -97,7 +97,49 @@ window.onload = () => {
 
 /* eslint-disable */
 function openModal() {
-  const gridContainer = document.getElementById('myModal');
-  gridContainer.style.display = 'block';
+  const gridContainer = document.getElementById('modal-container').innerHTML += `
+  <div id="myModal" class="modal">
+  <div class="modal-content">
+                    <span id="close" class="close" onclick="closeModal()">&times;</span>
+
+                    <div class="modal-img img-desktop"><img src="assets/images/modal-banner.svg" alt="project 1"></div>
+                    <div class="modal-img img-mobile"><img src="assets/images/mobile-banner.svg" alt="project 1"></div>
+                    <div class="row modal-header" id="modalHead">
+                        <div class="modal-title-container"><h3 class=" modal-title">Keeping track of hundreds of components</h3></div>
+                        <div class="desk-btns">
+                            <button class="modal-btn">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="modal-btn">See Source <i class="fa-brands fa-github"></i></button>
+                        </div>
+                    </div> 
+                    <div class="stucks-modal">
+                        <ul class=" modal-desktop-btn">
+                            <li>Codekit</li>
+                            <li>Github</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Terminal</li>
+                            <li>Codepen</li>
+                        </ul>
+                    </div>
+                    <div class="stucks-modal-mobile">
+                        <ul class=" modal-desktop-btn">
+                            <li>Codekit</li>
+                            <li>Github</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <p class="modal-p">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem
+                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it 1960s with the relea</p>
+                        <div class="mobile-btns">
+                          <button class="modal-btn">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                          <button class="modal-btn">See Source <i class="fa-brands fa-github"></i></button>
+                      </div>
+                </div>
+                </div>
+                `;
 }
 // When the user clicks on <span> (x), close the modal
