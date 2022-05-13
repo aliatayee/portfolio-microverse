@@ -3,11 +3,10 @@
 > Portfolio: Setup and mobile version skeleton 
 ## Demo Link
 https://aliatayee.github.io/portfolio-microverse/
-## Built With
-HTML5
 ## Major languages
-HTML
+HTML5
 CSS
+JAVASCRIPT
 
 ### Install & Setup
 
