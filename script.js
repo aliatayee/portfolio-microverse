@@ -165,9 +165,8 @@ window.onclick = function (event) {
   }
 };
 
-// client side validation and local storage
-window.onload=function(){
-document.getElementById('form-validate').addEventListener('submit', (e) => {
+// client side validation and local storage 
+  document.getElementById('form-validate').addEventListener('submit', (e) => {
   const emailValue = document.getElementById('email').value;
   const emailError = document.getElementById('error-msg');
   const validate = emailValue.toLowerCase();
@@ -181,4 +180,3 @@ document.getElementById('form-validate').addEventListener('submit', (e) => {
   }
   
 });
-}
