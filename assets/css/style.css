@@ -520,6 +520,11 @@ footer {
   font-family: Inter, sans-serif;
 }
 
+.error-msg {
+  color: rgb(255, 68, 68);
+  font-family: Inter, sans-serif;
+}
+
 .modal {
   position: fixed;
   z-index: 1;

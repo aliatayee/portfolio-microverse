@@ -192,7 +192,7 @@
           action="https://formspree.io/f/myyowwdj"
           method="POST"
           class="contact-form"
-          id="form"
+          id="form-validate"
         >
           <div>
             <div class="full__name">
@@ -226,11 +226,14 @@
               placeholder="Enter text here"
               required
             ></textarea>
+            <div>
+              <span class="error-msg" id="error-msg"></span>
+            </div>
             <div class="submit-button-container">
               <button class="submit-button" type="submit">Get in touch</button>
             </div>
           </div>
-          <span class="error-msg" id="error-msg"></span>
+          
         </form>
       </div>
       <div class="footer-contact">
