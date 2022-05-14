@@ -180,3 +180,18 @@ window.onclick = function (event) {
   }
   
 });
+
+// formData object
+let formData = {
+  full__name: '',
+  email: '',
+  description: '',
+};
+// retrieving the local storage
+if (localStorage.getItem('formData') !== null) {
+  const data = localStorage.getItem('formData');
+  formData = JSON.parse(data);
+}
+
+// saving data to local storage
+
