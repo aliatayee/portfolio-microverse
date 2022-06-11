@@ -1,6 +1,7 @@
 
 # Portfolio: Mobile version skeleton
-> Portfolio: Setup and mobile version skeleton 
+> This is a pure HTML, CSS, and JavaScript based personal portfolio project that let the users to add their project portfolio and view the projects.
+
 ## Demo Link
 https://aliatayee.github.io/portfolio-microverse/
 ## Major languages
